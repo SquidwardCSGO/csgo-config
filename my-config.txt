@@ -1,0 +1,69 @@
+// Squidward's Configuration for CS:GO
+// I will be working on this as I go on but give it time.
+
+// Launch options to potentially help FPS: -console -novid -tickrate 128 -freq 60 -high -threads 8 -full -w 1280 -h 720 -language english -noforcemaccel -noforcemparms -noforcemspd -heapsize 2097152 +exec autoexec +cl_forcepreload 1 -nod3d9ex1 -nojoy
+// -lv - that is an optional launch command, it increases FPS a bit. It stands for low violence.
+// My system specs:
+// AMD FX 8300
+// inno3d GTX 1050 TI
+// 2x4gb sticks of RAM
+// Toshiba 1000GB HDD
+// Those are the important specs for now.
+
+
+//-------------------------
+//|   Viewmodel Settings  |
+//-------------------------
+
+viewmodel_fov 68
+viewmodel_offset_x 1.5
+viewmodel_offset_y 3.5
+viewmodel_offset_z -3
+viewmodel_presetpos 4
+cl_viewmodel_shift_left_amt 1.5
+cl_viewmodel_shift_right_amt 0.75
+viewmodel_recoil 1
+cl_righthand 1
+
+
+//------------------------
+//|  Crosshair Settings  |
+//------------------------
+
+cl_crosshairalpha "255"
+cl_crosshaircolor "5"
+cl_crosshaircolor_b "0"
+cl_crosshaircolor_r "255"
+cl_crosshaircolor_g "0"
+cl_crosshairdot "0"
+cl_crosshairgap "-13"
+cl_crosshairsize "5"
+cl_crosshairstyle "4"
+cl_crosshairusealpha "1"
+cl_crosshairthickness "1"
+cl_fixedcrosshairgap "-13"
+cl_crosshair_outlinethickness "0"
+cl_crosshair_drawoutline "0"
+
+//----------------------
+//|  Network settings  |
+//----------------------
+
+rate "786432" //High upload rate - highest rate you should use. 
+cl_updaterate "128" //128 tickrate
+cl_cmdrate "128" //128 tickrate
+cl_interp "0" //Interp makes your enemy go behind his actual hitbox, to make his movement look smoother.
+cl_interp_ratio "1" //Interp makes your enemy go behind his actual hitbox, to make his movement look smoother.
+cl_predict "1" //Google.com
+cl_predictweapons "1" //Google.com
+cl_lagcompensation "1" //If you have 200 ping, the server will compensate the lag and will try to give you a smooth experience.
+
+//----------
+//|  Misc  |
+//----------
+
+bind mwheeldown "+jump"
+bind mwheelup "+jump"
+bind 1 "slot1; cl_righthand 1"
+bind 2 "slot2; cl_righthand 1"
+bind 3 "slot3; cl_righthand 0"
