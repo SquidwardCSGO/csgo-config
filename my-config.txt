@@ -1,7 +1,7 @@
 // Squidward's Configuration for CS:GO
 // I will be working on this as I go on but give it time.
 
-// Launch options to potentially help FPS: -console -novid -tickrate 128 -freq 60 -high -threads 8 -full -w 1280 -h 720 -language english -noforcemaccel -noforcemparms -noforcemspd -heapsize 2097152 +exec autoexec +cl_forcepreload 1 -nod3d9ex1 -nojoy
+// Launch options to potentially help FPS: -console -novid -tickrate 128 -freq 60 -high -threads 8 -sw -noborder -w 1280 -h 720 -language english -noforcemaccel -noforcemparms -noforcemspd -heapsize 2097152 +exec autoexec +cl_forcepreload 1 -nod3d9ex1 -nojoy
 // -lv - that is an optional launch command, it increases FPS a bit. It stands for low violence.
 // My system specs:
 // AMD FX 8300
